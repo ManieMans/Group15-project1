@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.quote-box {
+    background: #87CEEB; /* Sky Blue Background */
+    padding: 40px; /* Increased Padding */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 60%; /* Increased Width */
+    margin: auto;
+    font-size: 20px; /* Larger Text */
+    color: #333; /* Darker text for readability */
+}
+
+/* Uncomment below to change the container to Mauve */
+ /*
+.quote-box {
+    background: #E0B0FF;  Mauve Background 
+}
+*/
+
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 30px; /* Bigger Button */
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 10px 10px 10px black;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #333;
+}
